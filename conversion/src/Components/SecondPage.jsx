@@ -18,20 +18,23 @@ export default function SecondPage(props){
     }
 
     return(
-    <div>
+    <div className="main">
     <h1>What lbs value would you like to convert to KGs?</h1>
-    <div>{kg !== '' ? `${kg} kg` : ''}</div>
-    <form>
+    <div className="kg">{kg !== '' ? `${kg} kg` : ''}</div>
+    <form className="secondForm">
       <label>Enter lbs here:
         <input
+          className="lbs"
           type="number" 
           value={lbs}
           onChange={(e) => setLbs(parseInt(e.target.value))}
         />
       </label>
     </form>
+    <div className="buttons">
     <button onClick={conversion}>Convert Now</button>
     <button onClick={() => props.setPage('pageOne')}>Go back to the start</button>
+    </div>
     </div>
     )
 }

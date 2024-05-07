@@ -25,7 +25,7 @@ export default function FirstPage(props){
                     />
             </label>
 
-            <button className="button1" onClick={push}>
+            <button onClick={push}>
                 Confirm
             </button>
     </form>
