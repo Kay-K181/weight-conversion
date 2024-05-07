@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #a1b9ed , #2d69eb) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.wholeSection, .main{
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+label{
+    font-size: 2rem;
+    margin: auto;
+}
+
+input{
+    margin: auto;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    border: none;
+}
+
+button{
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    padding: 3px 20px;
+}
+
+button:hover{
+    background-color: #34b82a;
+}
+
+button:active{
+    color: grey;
+    background-color: #f7f00f;
+}
+
+
+.secondForm{
+    padding-top: 25px;
+}
+
+.lbs{
+    margin-left: 10px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.kg{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #2a173d;
+    text-shadow: 2px 2px #733ab0;
+    
+}
+
+@media screen and (max-width: 450px) {
+    .wholeSection {
+        width: 90%; 
+    }
+
+    label {
+        font-size: 1.5rem; 
+
+        
+    }
+
+    input, button{
+        display: block;
+        margin: 10px 0 0;
+    } 
+    
+}
+
+@media screen and (min-width: 1900px) {
+    .kg{
+        color: #734514;
+        text-shadow: 2px 2px #e8851c;
+        
+    }
+
+    h1{
+        color: #38220b;
+        text-decoration: underline;
+    }
+}

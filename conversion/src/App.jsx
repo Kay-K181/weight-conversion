@@ -1,6 +1,6 @@
 import React from "react";  
 import { useState } from "react";
-import FirstPage from "./Components/FirstPage";
+import FirstPage from "./Components/FirstPage"
 import SecondPage from "./Components/SecondPage";
 
 
