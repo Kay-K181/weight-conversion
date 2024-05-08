@@ -71,7 +71,7 @@ button:active{
     
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
     .wholeSection {
         width: 90%; 
     }
@@ -89,7 +89,7 @@ button:active{
     
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1200px) {
     .kg{
         color: #734514;
         text-shadow: 2px 2px #e8851c;
